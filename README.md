@@ -42,7 +42,7 @@ You need [uv](https://docs.astral.sh/uv/). The install steps below set it up if 
 ### Linux, macOS, WSL
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Coybo/http-headers-scanner
 cd http-headers-scanner
 ./install.sh
 ```
@@ -53,7 +53,7 @@ The script installs uv from astral.sh if you don't have it, then installs the `h
 
 ```powershell
 winget install --id astral-sh.uv
-git clone <your-repo-url>
+git clone https://github.com/Coybo/http-headers-scanner
 cd http-headers-scanner
 uv tool install .
 ```
