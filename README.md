@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
+[![CI](https://github.com/Coybo/http-headers-scanner/actions/workflows/ci.yml/badge.svg)](https://github.com/Coybo/http-headers-scanner/actions/workflows/ci.yml)
 
 A command-line tool that scans a URL for important HTTP security headers and grades the site from A to F.
 
