@@ -140,6 +140,8 @@ just run https://example.com --json
 
 ```
 http-headers-scanner/
+├── .github/workflows/ci.yml       # runs the tests on every push
+├── docs/screenshot.png            # example output for the README
 ├── http_headers_scanner.py        # rules, scoring, async scanning, CLI
 ├── test_http_headers_scanner.py   # tests, network mocked with respx
 ├── pyproject.toml                 # dependencies and tool config (uv)
