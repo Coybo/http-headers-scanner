@@ -169,7 +169,7 @@ def evaluate_header(
 
 DEFAULT_USER_AGENT: str = (
     "http-headers-scanner/1.0 "
-    "(+https://github.com/CarterPerez-dev/Cybersecurity-Projects)"
+    "(+https://github.com/coybo/https-headers-scanner)"
 )
 
 def _build_report(url: str, response: httpx.Response) -> ScanReport:
